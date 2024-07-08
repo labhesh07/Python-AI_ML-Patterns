@@ -1,6 +1,6 @@
 # Python Pattern Programs
 
-This repository contains various Python scripts to generate different types of patterns, commonly used in programming practice and competitive coding.
+This repository contains various Python scripts to generate different types of patterns, commonly used in programming practice and competitive coding. Each pattern script prompts the user to enter the desired height for the pattern.
 
 ## Repository Structure
 
@@ -49,14 +49,13 @@ The repository is organized into folders based on the type of pattern:
     python Diamond.py
     ```
 
-## Contributing
+4. Enter the desired height when prompted by the script:
+    ```python
+    height = int(input("Enter Height : "))
+    ```
 
-Contributions are welcome! Please fork the repository and submit a pull request for review.
+### Example
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-- GitHub: [labesh07](https://github.com/labesh07)
+```bash
+$ python Diamond.py
+Enter Height: 5
